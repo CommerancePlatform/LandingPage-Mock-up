@@ -1,0 +1,20 @@
+.CallToAction-grey {
+    padding: .5rem .75rem;
+
+    border-radius: .35rem;
+
+    background-color: rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .3);
+}
+
+.CallToAction-black {
+    padding: .5rem .75rem;
+
+    border-radius: .35rem;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.SubHeader {
+    font-size: 1.15rem;
+}

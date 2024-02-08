@@ -1,0 +1,47 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: top;
+}
+
+.Main > img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    width: 30vw;
+}
+
+
+.Customize {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+}
+
+.Header {
+
+    width: 100%;
+}
+
+.FeatureList {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    gap: 3rem;
+}
+
+.FeatureList > div {
+    width: 45%;
+}
+
+
+.Main > .content > div {
+    margin-top: 1rem;
+}
